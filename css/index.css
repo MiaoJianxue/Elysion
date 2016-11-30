@@ -1,0 +1,1387 @@
+@charset "UTF-8";
+/*顶部导航*/
+/*左边的logo*/
+.top{
+    width: 1349px;
+    height: 30px;
+}
+.nav{
+    height: 30px;
+    line-height: 30px;
+    width: 1000px;
+}
+.nav .leftlogo{
+    float:left;
+}
+/*中间部分*/
+.nav .center{
+    float: left;
+    color:#333333;
+    font-size:14px ;
+    font-weight: 700;
+    margin-left: 60px;
+
+}
+.nav .center a{
+    padding:0 15px;
+}
+/*右边的导航*/
+.nav .rightlogo{
+    float:right;
+}
+/*汽车展示开始*/
+.picture{
+    width:1349px;
+    height: 620px;
+}
+.picture .pic{
+    position: absolute;
+
+}
+.picture .c-logo{
+    position: relative;
+    margin-left: 509px;
+    margin-top: 50px;
+}
+.picture .b-pic{
+    position: absolute;
+    margin-top: 537px;
+    margin-left: -815px;
+}
+
+/*价格展示开始*/
+.picture .jia{
+    position: relative;
+    color:#FFFFFF;
+    margin-left: 1023px;
+    margin-top: -49px;
+    border-bottom: 1px solid #85806F;
+    width: 164px;
+    height: 80px;
+    /*display: none;*/
+
+}
+.picture .jia .jiage{
+    font-size: 16px;
+}
+
+
+.picture .jia p{
+    color:#FFFFFF;
+}
+.picture .jia p .num{
+    font-size: 32px;
+    font-weight: 700;
+}
+.jia p .danwei{
+    font-size:18px;
+}
+/*下面的列表开始*/
+.picture .liebiao{
+    margin-top: 3px;
+    height: 186px;
+    position: relative;
+    border-top: 1px solid  #85806F;
+    width: 164px;
+    margin-left: 1023px;
+    cursor:pointer;
+    /*display: none;*/
+}
+.picture .liebiao ul{
+    margin-top: 10px;
+}
+.picture .liebiao li{
+    line-height:35px;
+    position: relative;
+
+}
+.picture .liebiao li img{
+    height: 35px;
+    position: absolute;
+    margin-left:70px;
+    margin-top: -1px;
+    display: none;
+
+
+}
+.picture .liebiao li a{
+    color:#FFFFFF;
+    font-size:14px;
+}
+/*下面的视频开始*/
+.picture .tv{
+    margin-left: 991px;
+    overflow: hidden;
+    height: 60px;
+    position: relative;
+    margin-top: 27px;
+    cursor:pointer;
+
+}
+.picture .tv .p-tv{
+    position: absolute;
+
+
+}
+.picture .tv .b-tv{
+    position: absolute;
+    margin-left: 60px;
+    top:0px;
+}
+/*网络平台标识开始*/
+.internet{
+    position: relative;
+    margin-top: 17px;
+    margin-left: 985px;
+    cursor:pointer;
+
+}
+.internet .l-weibo{
+    float:left;
+    padding: 0 26px;
+}
+
+/*官方微信APP*/
+.box{
+    width: 200px;
+    height:60px;
+    /*line-height: 60px;*/
+    position: relative;
+    background-color: #302D2B;
+    margin-left: 992px;
+      margin-top: 50px;
+    text-align: center;
+    cursor:pointer;
+
+}
+.box.weixin{
+    position: relative;
+}
+.box .weixin .er-weixin{
+    color:#6E6C6A;
+    font-size: 14px;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 40px;
+
+
+
+}
+/*隐藏的二维码盒子*/
+.wei-box{
+    width: 200px;
+    height: 200px;
+    background-color: #302D2B;
+    position: relative;
+    z-index: 2;
+    display:none;
+}
+
+.wei-box img{
+    /*position: absolute;*/
+    margin-top: 22px;
+}
+.wei-box .er-weixin{
+    margin-top: 17px;
+}
+.wei-box .app-weixin{
+    margin-top: 12px;
+}
+.box .app{
+    position: absolute;
+}
+
+.box  .app .app-weixin{
+    color:#6E6C6A;
+    font-size: 14px;
+    margin-top: 37px;
+    margin-left: 37px;
+}
+/*隐藏的APP二维码盒子*/
+.app-box {
+
+    width: 200px;
+    height: 200px;
+    background-color: #302D2B;
+    position: relative;
+    z-index: 2;
+    display:none;
+}
+.app-box  .er-weixin{
+
+}
+.app-box .app-weixin{
+    margin-top: 12px;
+}
+.box .app-box .andriod-er{
+    margin-top: 9px
+}
+.box .app-box .ios-er{
+    margin-top: 9px;
+    display:none;
+
+}
+.box .app-box .ios{
+
+}
+.box .app-box .andriod{
+
+}
+/*车牌*/
+.carlogo{
+    position: absolute;
+    margin-left: 1168px;
+    margin-top: 20px;
+}
+.icon{
+    position: absolute;
+    margin-top: -317px;
+    margin-left: 1294px;
+    cursor:pointer;
+
+}
+.icon ul li{
+    position: relative;
+    border-bottom: 1px solid #FFF;
+
+}
+.icon p{
+    color:#FFFFFF;
+    border-bottom: 1px solid #FFF;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: -75px;
+    width:75px;
+    text-align: center;
+    display: none;
+}
+/*第二个页面的导航条开始*/
+.two-nav{
+    /*position: absolute;*/
+    height: 50px;
+    float: left;
+    text-align: center;
+    width: 1349px;
+    background-color:#000000;
+    cursor:pointer;
+}
+.two-nav .content .l-logo{
+    float: left;
+    position: relative;
+    margin-top: 10px
+
+}
+.content .m-content ul li{
+    line-height: 50px;
+    /*height: 50px;*/
+}
+.two-nav .content .m-content ul .one a{
+    color: #D79770;
+}
+.content .m-content ul a{
+    float: left;
+    position: relative;
+    padding:0 25px;
+    font-size: 14px;
+    color:#FFFFFF;
+
+}
+
+.two-nav .content .m-content ul a:hover{
+    color: #D79770;
+}
+.two-nav .r-content img{
+    position:absolute;
+    background-color: #D79770;
+    float:right;
+    margin-top: 10px;
+    margin-left: 55px;
+}
+.two-nav .content .r-content ul li a{
+    float:right;
+    position: relative;
+    line-height: 50px;
+    color: #D79770;
+    font-size: 14px;
+}
+
+.two-nav .r-box{
+    height: 50px;
+    width: 152px;
+    background-color: #363636;
+    float: right;
+    position: relative;
+    margin-right: -222px;
+}
+/*下面的轮播图开始*/
+#background{
+    position: relative;
+    height:543px;
+    width: 1349px;
+    margin-top: 50px;
+}
+
+/*车型展示*/
+#background .carmodel{
+    position: absolute;
+    width: 560px;
+    height: 435px;
+    margin-top: -469px;
+    margin-left: 407px;
+}
+#background .carmodel .a{
+    /*display: none;*/
+}
+#background .carmodel .b{
+    display: none;
+}
+#background .carmodel .c{
+    display: none;
+}
+#background .carmodel .d{
+    display: none;
+}
+#background .carmodel .e{
+    display: none;
+}
+    /*按钮开始*/
+#background .fangkuai{
+    position: absolute;
+    margin-top: -161px;
+    margin-left: 476px;
+
+
+}
+#background .fangkuai .a-kuang{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    margin-top: -68px;
+    margin-left: -6px;
+    display: none;
+}
+
+#background .fangkuai .bb{
+    margin-top: -76px;
+    margin-left: 93px;
+
+}
+#background .fangkuai .cb{
+    margin-top: -76px;
+    margin-left: 187px;
+}
+#background .fangkuai .db{
+    margin-top: -76px;
+    margin-left: 279px;
+}
+#background .fangkuai .eb{
+    margin-top: -76px;
+    margin-left: 374px;
+}
+#background .fangkuai p{
+    color:white;
+    /*margin-top: 13px;*/
+    /*position:absolute;*/
+
+}
+
+#background .bizhi{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 532px;
+}
+/*车型框架开始*/
+.carbox{
+    position: relative;
+    width: 1349px;
+    height: 591px;
+}
+/*天窗开始*!/*/
+.carbox .sky{
+    position: relative;
+    display:none;
+    width: 1349px;
+    height: 591px;
+}
+.carbox .tianchuang{
+    position: absolute;
+    margin-top: -594px;
+
+
+}
+.carbox .tianchuang .open{
+    position: absolute;
+}
+.carbox .tianchuang  .one{
+   /*display: none;*/
+}
+.carbox .tianchuang .two{
+    display: none;
+    position: absolute;
+    margin-top: 292px;
+}
+.carbox .tianchuang .three{
+    display: none;
+    position:absolute;
+    margin-top: 292px;
+}
+/*.carbox .tianchuang .close .one{*/
+    /*display: none;*/
+/*}*/
+/*.carbox .tianchuang .close .two{*/
+    /*display: none;*/
+/*}*/
+/*.carbox .tianchuang .close .three{*/
+    /*display: none;*/
+/*}*/
+.carbox .tianchuang .three-box{
+    position: relative;
+    width: 1349px;
+    height: 591px;
+}
+.carbox .tianchuang .button1{
+    position: absolute;
+    margin-top: -185px;
+    margin-left: 433px;
+}
+/*.carbox .tianchuang  .three-box .button2{*/
+    /*position: absolute;*/
+    /*margin-top: -469px;*/
+    /*margin-left: 433px;*/
+    /*display:none;*/
+/*}*/
+/*开启天窗后显示关闭按钮*/
+.tianchuang .open .closebtn{
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #B88F63;
+    text-align: center;
+    color:white;
+    margin-top: -327px;
+    margin-left: 630px;
+    cursor: pointer;
+}
+
+
+/*关闭天窗后显示开启按钮*/
+/*.tianchuang .openbtn{*/
+    /*width: 80px;*/
+    /*height: 35px;*/
+    /*line-height: 35px;*/
+    /*text-align: center;*/
+    /*background-color: #B88F63;*/
+    /*color:white;*/
+    /*display: none;*/
+    /*margin-top: -327px;*/
+    /*margin-left: 630px;*/
+    /*cursor: pointer;*/
+/*}*/
+/*下面的小圆圈开始*/
+.cricle{
+    position: relative;
+    margin-top: -58px;
+    margin-left: 609px;
+
+}
+/*控制天窗的圆圈*/
+.cricle .tian{
+    position: relative;
+    border-radius: 50%;
+    border:1px solid #CDCDCF;
+    background-color: #CDCDCF;
+    height: 20px;
+    width: 20px;
+
+}
+
+.bigyuan1 {
+    border-radius: 50%;
+    border: 1px solid #CDCDCF;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    margin-top: -29px;
+    margin-left: 604px;
+    display:none;
+    cursor: pointer;
+}
+.bigyuan2{
+    border-radius: 50%;
+    border: 1px solid #CDCDCF;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    margin-top: -28px;
+    margin-left: 662px;
+    display:none;
+    cursor: pointer;
+}
+.bigyuan3{
+    border-radius: 50%;
+    border: 1px solid #CDCDCF;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    margin-top: -28px;
+    margin-left: 716px;
+    display:none;
+    cursor: pointer;
+}
+/*控制座椅的天窗*/
+.cricle .yizi{
+    position: relative;
+    border-radius: 50%;
+    border:1px solid #CDCDCF;
+    background-color: #CDCDCF;
+    height: 20px;
+    width: 20px;
+    margin-top: -21px;
+    margin-left: 58px;
+
+}
+/*控制车的天窗*/
+.cricle .che{
+    position: relative;
+    border-radius: 50%;
+    border:1px solid #CDCDCF;
+    background-color: #CDCDCF;
+    height: 20px;
+    width: 20px;
+    margin-top: -21px;
+    margin-left: 112px;
+
+}
+/*z=座椅开始*/
+.zuoyi {
+    position: relative;
+    display:none;
+    height: 591px;
+
+}
+.zuoyi .open-zuoyi{
+    position:relative;
+    /*display: none;*/
+
+}
+/*展开的时候的椅子*/
+.zuoyi .open-zuoyi .point1{
+
+}
+.zuoyi .open-zuoyi .point2{
+   display: none;
+}
+.zuoyi .open-zuoyi .point3{
+    display: none;
+}
+.zuoyi .open-zuoyi .point4{
+    display: none;
+}
+
+.zuoyi .open-zuoyi .wenzi{
+    position: absolute;
+    margin-top: -461px;
+    margin-left: 425px;
+
+}
+
+
+/*展开座椅按钮开始*/
+.zuoyi .open-zuoyi .zhankai-btn{
+    position: absolute;
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #B88F63;
+    text-align: center;
+    color:white;
+    margin-top: -320px;
+    margin-left: 633px;
+
+}
+/*收起的时候的椅子*/
+.close-zuoyi{
+    position:relative;
+    display:none;
+}
+.close-zuoyi .point4{
+
+}
+
+.close-zuoyi .point3 {
+    display: none;
+}
+
+.close-zuoyi .point2 {
+    display: none;
+}
+
+.close-zuoyi .point1 {
+    display: none;
+}
+.zuoyi .close-zuoyi .wenzi{
+    position: absolute;
+    margin-top: -461px;
+    margin-left: 425px;
+
+}
+
+
+/*展开座椅按钮开始*/
+.zuoyi .close-zuoyi .guanbi-btn{
+    position: absolute;
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #B88F63;
+    text-align: center;
+    color:white;
+    margin-top: -320px;
+    margin-left: 633px;
+
+}
+/*车型展示开始*/
+.car-show{
+    overflow:hidden;
+    width: 1349px;
+    height: 591px;
+}
+/*背景图*/
+.car-show .back{
+    position: relative;
+}
+.car-show .line{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 700;
+    margin: auto;
+    width: 100%;
+    display:none;
+}
+.car-show .bus{
+    position: absolute;
+    margin-top: -515px;
+    margin-left: 220px;
+}
+/*左边的波浪*/
+.car-show  .l-bolang{
+    position: absolute;
+    margin-top: -748px;
+    margin-left: -600px;
+    display:none;
+
+}
+/*右边的波浪*/
+.car-show .r-bolang{
+    position: absolute;
+    margin-top: -750px;
+    margin-left: 897px;
+    display:none;
+}
+/*红色圆开始*/
+.red-yuan{
+    position:absolute;
+    /*margin-top: -155px;*/
+    /*margin-left: 819px;*/
+}
+.red-yuan .acb .ac{
+    position: absolute;
+    margin-top: -163px;
+    margin-left: 820px;
+}
+/*圆外面包裹的图*/
+.red-yuan .acb .ac1{
+    position: absolute;
+    margin-top: -173px;
+    margin-left: 811px;
+}
+.red-yuan .bcb .bc{
+    position: absolute;
+    margin-top: -302px;
+    margin-left: 242px;
+}
+/*圆外面包裹的图*/
+.red-yuan .bcb .bc2{
+    position: absolute;
+    margin-top: -311px;
+    margin-left: 233px;
+}
+
+.red-yuan .ccb .cc{
+    position: absolute;
+    margin-top: -302px;
+    margin-left: 807px;
+}
+/*圆外面包裹的图*/
+.red-yuan .ccb .cc3{
+    position: absolute;
+    margin-top: -311px;
+    margin-left: 798px;
+}
+.red-yuan  .dcb .dc{
+    position: absolute;
+    margin-top: -302px;
+    margin-left: 1113px;
+}
+/*圆外面包裹的图*/
+.red-yuan  .dcb .dc4{
+    position: absolute;
+    margin-top: -311px;
+    margin-left: 1104px;
+}
+.red-yuan .ecb .ec{
+    position: absolute;
+    margin-top: -453px;
+    margin-left: 815px;
+}
+.red-yuan .ecb .ec5{
+    position: absolute;
+    margin-top: -462px;
+    margin-left: 807px;
+}
+
+/*加载图片开始*/
+.load{
+    position: absolute;
+    margin-top: -305px;
+    margin-left: 654px;
+}
+/*功能介绍开始*/
+.use{
+    position: relative;
+    height: 595px;
+    width: 1349px;
+}
+/*第一张外观背景图*/
+.use .use1-back{
+    position: relative;
+    height: 595px;
+    width: 1349px;
+    display: none;
+}
+.use .use1-back.use1 {
+    position: absolute;
+
+}
+/*外观图*/
+.use .use1-back .waiguan{
+    position: absolute;
+    margin-top: -126px;
+}
+/*第二种舒适空间图*/
+.use .use2-back{
+    position: relative;
+    height: 595px;
+    width: 1349px;
+    display:none;
+}
+.use .use2-back{
+    position: relative;
+    height: 595px;
+    width: 1349px;
+}
+.use .use2-back .use2{
+    position: absolute;
+}
+/*舒适图*/
+.use .use2-back .shushi{
+    position: absolute;
+    margin-top: 470px;
+}
+/*第三背景图开始*/
+.use .use3-back{
+    position: relative;
+    height: 595px;
+    width: 1349px;
+    display:none;
+}
+.use .use3-back .use3{
+    position: absolute;
+}
+/*配置图*/
+.use .use3-back  .peizhi{
+    position: absolute;
+    margin-top: 469px;
+}
+/*第四张背景图开始*/
+.use4-back{
+    position: relative;
+    height: 595px;
+    width: 1349px;
+    display:none;
+}
+.use4-back .use4{
+    position: absolute;
+}
+/*安全图开始*/
+.use4-back .safe{
+    position: absolute;
+    margin-top: 469px;
+}
+/*第五张背景开始*/
+.use5-back{
+    position: relative;
+    height: 595px;
+    width: 1349px;
+}
+.use5-back .use5{
+    position: absolute;
+}
+/*动力图开始*/
+.use5-back .dongli{
+    position: absolute;
+    margin-top: 469px;
+}
+    /*公共部分*/
+/*文字图片开始*/
+.conmon{
+    position: absolute;
+}
+.conmon .wenziy{
+    position: absolute;
+    margin-top: -391px;
+    margin-left: 402px;
+
+}
+/*公共区域文字链接部分*/
+.conmon p {
+
+    color:white;
+    float: left;
+    font-size: 16px;
+    cursor: pointer;
+
+
+}
+.conmon  .wai{
+    position: relative;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: -340px;
+    margin-left: 447px;
+}
+.conmon  .shu{
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: -340px;
+    margin-left: 537px;
+}
+.conmon .pei{
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: -341px;
+    margin-left: 668px;
+}
+.conmon .an{
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: -341px;
+    margin-left:766px;
+}
+.conmon .dong{
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: -341px;
+    margin-left: 866px;
+}
+/*第五个页面开始，车型类别*/
+.car-style{
+    position:relative;
+}
+.car-style .style-back{
+    position: relative;
+}
+.car-style .left-jian{
+    position: absolute;
+    margin-top: -364px;
+    margin-left: 141px;
+}
+.car-style .right-jian{
+    position: absolute;
+    margin-top: -364px;
+    margin-left: 1183px;
+}
+/*经典版*/
+.dian{
+    width: 280px;
+    height: 360px;
+    position: relative;
+    background-color: #060505;
+    opacity:0.7;
+    margin-top: -529px;
+    margin-left: 187px;
+    display:none;
+}
+.dian .jingdian{
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 20px;
+    opacity: 1;
+
+}
+.dian .contf-line{
+    position: absolute;
+    margin-top: 84px;
+    margin-left: 1px;
+}
+.dian p{
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 111px;
+    margin-left: 75px;
+    opacity: 1;
+}
+.dian ul{
+
+    position: absolute;
+    color:#676666;
+
+    margin-top: 160px;
+    margin-left: 33px;
+
+}
+.dian ul li{
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.dian .commonzi{
+    position: absolute;
+    width: 204px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    background-color: #9F9F9F;
+    color:black;
+    float: left;
+    margin-top: 309px;
+    margin-left: 10px;
+}
+.dian img{
+    position: absolute;
+    margin-top: 308px;
+    margin-left: 233px;
+}
+/*舒适版开始*/
+.shiy{
+    width: 280px;
+    height: 360px;
+    position: relative;
+    background-color: #060505;
+    opacity:0.7;
+    margin-top: -359px;
+    margin-left: 522px;
+    display:none;
+}
+/*舒适版文字图*/
+.shiy .shushiy{
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 20px;
+    opacity: 1;
+}
+.shiy .contf-line{
+    position: absolute;
+    margin-top: 84px;
+    margin-left: 1px;
+}
+.shiy  p{
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 111px;
+    margin-left: 75px;
+    opacity: 1;
+}
+.shiy ul{
+    position: absolute;
+    color:#676666;
+    margin-top: 160px;
+    margin-left: 57px;
+}
+.shiy ul li{
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    font-size: 14px;
+}
+/*舒适版公共区域*/
+.shiy .commonzi{
+    position: absolute;
+    width: 204px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    background-color: #9F9F9F;
+    color:black;
+    float: left;
+    margin-top: 309px;
+    margin-left: 10px;
+}
+.shiy img{
+    position: absolute;
+    margin-top: 308px;
+    margin-left: 233px;
+}
+/*风尚版开始*/
+.feng{
+    width: 280px;
+    height: 360px;
+    position: relative;
+    background-color: #060505;
+    opacity:0.7;
+    margin-top: -359px;
+    margin-left: 857px;
+    display:none;
+}
+/*风尚版文字图开始*/
+.feng .fasion{
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 20px;
+    opacity: 1;
+}
+.feng .contf-line{
+    position: absolute;
+    margin-top: 84px;
+    margin-left: 1px;
+
+}
+.feng p{
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 111px;
+    margin-left: 75px;
+    opacity: 1;
+}
+.feng ul{
+    position: absolute;
+    color:#676666;
+    margin-top: 160px;
+    margin-left: 57px;
+}
+.feng ul li{
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    font-size: 14px;
+}
+/*风尚版公共区域开*/
+.feng .commonzi{
+    position: absolute;
+    width: 204px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    background-color: #9F9F9F;
+    color:black;
+    float: left;
+    margin-top: 309px;
+    margin-left: 10px;
+}
+.feng img {
+    position: absolute;
+    margin-top: 308px;
+    margin-left: 233px;
+}
+/*豪华版开始*/
+.hua{
+    width: 280px;
+    height: 360px;
+    position: relative;
+    background-color: #060505;
+    opacity:0.7;
+    margin-top: -529px;
+    margin-left: 187px;
+}
+/*豪华版文字图片开始*/
+/*豪华版top值有问题*/
+.hua .haohua{
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 20px;
+    opacity: 1;
+
+}
+.hua .contf-line{
+    position: absolute;
+    margin-top: 84px;
+    margin-left: 1px;
+}
+.hua  p{
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 111px;
+    margin-left: 75px;
+    opacity: 1;
+}
+.hua  ul{
+    position: absolute;
+    color:#676666;
+
+    margin-top: 160px;
+    margin-left: 33px;
+}
+.hua  ul li{
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    font-size: 14px;
+}
+/*豪华版公共区域*/
+.hua .commonzi{
+    position: absolute;
+    width: 204px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    background-color: #9F9F9F;
+    color:black;
+    float: left;
+    margin-top: 309px;
+    margin-left: 10px;
+}
+.hua img{
+    position: absolute;
+    margin-top: 308px;
+    margin-left: 233px;
+}
+/*至尊版开始*/
+.zhi{
+    width: 280px;
+    height: 360px;
+    position: relative;
+    background-color: #060505;
+    opacity:0.7;
+    margin-top: -360px;
+    margin-left: 522px;
+}
+/*至尊文字图*/
+.zhi .bext{
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 20px;
+    opacity: 1;
+}
+.zhi .contf-line{
+    position: absolute;
+    margin-top: 84px;
+    margin-left: 1px;
+}
+.zhi p{
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 111px;
+    margin-left: 75px;
+    opacity: 1;
+}
+.zhi ul{
+    position: absolute;
+    color:#676666;
+    margin-top: 160px;
+    margin-left: 57px;
+}
+.zhi ul li{
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    font-size: 14px;
+}
+/*至尊公共区域*/
+.zhi .commonzi{
+    position: absolute;
+    width: 204px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    background-color: #9F9F9F;
+    color:black;
+    float: left;
+    margin-top: 309px;
+    margin-left: 10px;
+}
+.zhi img{
+    position: absolute;
+    margin-top: 308px;
+    margin-left: 233px;
+}
+/*公共区域3*/
+.comon3{
+    width: 220px;
+    height: 50px;
+    background-color: #2E2E2E;
+    color:#EDC7AD;
+    font-size:16px;
+    position: absolute;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 77px;
+    margin-left: 526px;
+}
+.comon3 img{
+    position: absolute;
+    margin-top: 9px;
+    margin-left: -42px;
+    background-color: #EDC7AD;
+}
+.arr1{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #1B1B1B;
+    float:left;
+    position: absolute;
+    margin-top:77px;
+    margin-left: 746px;
+}
+.arr1 .arr{
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 12px;
+}
+/*第六个页面开始*/
+.lastnews{
+    /*position: relative;*/
+    width: 1349px;
+    height: 580px;
+    margin-top: 595px;
+
+
+
+}
+
+.lastnews .news-back{
+    position: absolute;
+}
+.lastnews p{
+    color: #FFFFFF;
+    font-size:23px;
+    position: absolute;
+    margin-top: -22px;
+    margin-left: 201px;
+}
+.lastnews span{
+    font-size: 15px;
+    color:#FFFFFF;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 6px;
+}
+.lastnews .news1{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 90px
+}
+.lastnews .news2{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 498px;
+}
+.lastnews .news3{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 909px
+}
+.lastnews .news4{
+    position: absolute;
+    margin-top: 315px;
+    margin-left: 90px
+
+}
+.lastnews .news5{
+    position: absolute;
+    margin-top: 315px;
+    margin-left:  498px;
+}
+/*最后一个页面*/
+.xiao{
+    position: relative;
+    width: 1349px;
+    height: 629px;
+}
+.xiao .bg{
+    position: relative;
+}
+.xiao .map{
+    position: absolute;
+    margin-top: -577px;
+    margin-left: 173px;
+}
+.xiao p {
+    position: absolute;
+    color: #FFFFFF;
+    font-size:23px;
+    margin-top: -629px;
+    margin-left: 178px;
+}
+.xiao span{
+    font-size: 12px;
+    color:#FFFFFF;
+    position: absolute;
+    margin-left: 176px;
+    margin-top: -600px;
+}
+.xiao .yuany{
+    border: 1px solid #FFFFFF;
+    background-color: #fff;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-left: 654px;
+    margin-top: -664px;
+}
+.next-nav{
+    width: 1349px;
+    height: 49px;
+    background-color:#000000;
+    position: relative;
+}
+.next-nav a{
+   height: 10px;
+    position: absolute;
+    margin-top: 6px;
+}
+.next-nav .a2{
+    margin-left: 59px
+}
+.next-nav .a3{
+    margin-left: 123px;
+}
+.next-nav .a4{
+    margin-top: 10px;
+}
+.next-nav .a5{
+    margin-left: 130px;
+    margin-top: 10px;
+
+}
+.next-nav .a6{
+    margin-top: 10px;
+    margin-left: 285px
+
+}
+.next-nav img{
+    float:right;
+    margin-top: -11px;
+}
